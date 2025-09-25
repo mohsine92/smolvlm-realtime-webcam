@@ -1,0 +1,131 @@
+body {
+    overflow: hidden;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+   background: url(https://i.pinimg.com/1200x/66/35/0a/66350a32df7cdbcb3305de5b616cdeae.jpg) center center no-repeat ;
+    object-fit: cover;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container-frame {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 70px;
+    background-color: rgba(255, 255, 255, 0.468);
+    border-radius: 30px;
+    backdrop-filter: blur(100px) !important;
+}
+
+label {
+font-size: 14px;
+font-weight: 400;
+border-radius: 30px;
+text-align: start;
+}
+
+div {
+    margin: 10px;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+
+.controls {
+gap: 20rem;
+}
+
+
+.controls, .io-areas {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.io-areas {
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+#baseURL {
+    background-color: rgba(255, 255, 255, 0.161);
+    backdrop-filter: blur(1px);
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 0.8px solid rgb(0, 0, 0);
+
+}
+textarea {
+    resize: none;
+    background-color: rgba(255, 255, 255, 0.161);
+    backdrop-filter: blur(1px);
+    width: 300px;
+    height: 80px;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 0.8px solid rgb(0, 0, 0);
+}
+
+#videoFeed {
+    justify-content: center;
+    display: block;
+    justify-items: center;
+    width: 480px;
+    height: 360px;
+    border-radius: 50px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px rgb(149, 149, 149);
+}
+#startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+#startButton.start {
+    font-size: 13px;
+    color: rgb(41, 41, 41);
+    background-color: rgb(100, 225, 100); /* black */
+}
+#startButton.stop {
+    font-size: 13px;
+    color: rgb(234, 234, 234);
+    background-color: #dc3545; /* Red */
+}
+
+
+select {
+    padding: 8px;
+    border-radius: 14px;
+    color: white;
+    border: none;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.hidden {
+    display: none;
+}

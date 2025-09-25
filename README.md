@@ -1,4 +1,4 @@
-# SmolVLM real-time camera demo
+# LocalEye - SmolVLM real-time camera demo
 
 ![demo](./demo.png)
 

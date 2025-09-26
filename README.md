@@ -2,9 +2,7 @@
 
 Vision-Language Model (VLM) for real-time video analysis via webcam.
 
-<img width="2964" height="1866" alt="LocalEye Screenshot" src="https://github.com/user-attachments/assets/2ad3bdcb-db90-4b15-8ca4-193990d988b8" />
-
----
+<img width="2882" height="1794" alt="Capture d’écran 2025-09-26 à 22 58 16" src="https://github.com/user-attachments/assets/f35f7824-0c64-4c7b-b859-0096c45aedad" />
 
 ## 🔍 Objective
 

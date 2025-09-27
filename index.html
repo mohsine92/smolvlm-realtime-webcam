@@ -3,46 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LlamaLens</title>
+    <title>Lens - SmolVLM Real-time Webcam</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container-frame">
-        <h1>LlamaLens</h1>
+        <h1>Lens</h1>
         <video id="videoFeed" autoplay playsinline></video>
         <canvas id="canvas" class="hidden"></canvas> <!-- For capturing frames -->
         
         <div class="io-areas">
-            <div>
+            <div class="api">
                 <label for="baseURL">Base API :</label><br>
                 <input id="baseURL" name="Instruction" value="http://localhost:8080"></textarea>
             </div>
-            
+
             <div>
-                <label for="instructionText">Prompt :</label><br>
-                <textarea id="instructionText" style="height: 2em; width: 40em" name="Instruction"></textarea>
+                <label for="responseText">Generation</label><br>
+                <textarea id="responseText" style="height: 70px; width: 100%" name="Response" readonly placeholder="Server response will appear here..."></textarea>
+            </div>
+
+            <div>
+                <label for="responseText">Ask me a question </label><br>
+                <textarea id="instructionText" style="height: fit-content; width: 100%" name="Instruction"><button id="startButton" class="start">Start</button>
+                </textarea>
             </div>
             
-            <div>
-                <label for="responseText">Response :</label><br>
-                <textarea id="responseText" style="height: 2em; width: 40em" name="Response" readonly placeholder="Server response will appear here..."></textarea>
-            </div>
+            
         </div>
-        
+    
         <div class="controls">
-            <label for="intervalSelect">Interval between 2 requests : </label>
             <select id="intervalSelect" name="Interval between 2 requests">
+                <option for="intervalSelect">Request interval </label>
                 <option value="100">100ms</option>
                 <option value="250">250ms</option>
-                <option value="500" selected>500ms</option>
+                <option value="500">500ms</option>
                 <option value="1000">1s</option>
                 <option value="2000">2s</option>
             </select>
-            <button id="startButton" class="start">Start</button>
+            <!--<select id="ai" name="models">
+                <option for="intervalSelect">Model</label>
+                <option value="SmolVLM">SmolVLM</option>
+            </select>-->
+            <img src="https://i.pinimg.com/1200x/be/a9/e9/bea9e91727a3bc46361475f686dd6d69.jpg" alt="" id="startButton" class="start">
         </div>
     </div>
-
 <script src="app.js"></script>
 </body>
 </html>

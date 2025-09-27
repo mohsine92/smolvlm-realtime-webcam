@@ -6,7 +6,7 @@ const responseText = document.getElementById('responseText');
 const intervalSelect = document.getElementById('intervalSelect');
 const startButton = document.getElementById('startButton');
 
-instructionText.value = "Describe what you see ?"; // default instruction
+instructionText.value = "Describe what you see ?"; // default prompt
 
 let stream;
 let intervalId;

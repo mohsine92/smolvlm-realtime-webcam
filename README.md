@@ -4,7 +4,7 @@ Vision-Language Model (VLM) for real-time video analysis via webcam.
 
 <img width="2882" height="1794" alt="Capture d’écran 2025-09-26 à 22 58 16" src="https://github.com/user-attachments/assets/f35f7824-0c64-4c7b-b859-0096c45aedad" />
 
-## 🔍 Objective
+## Objective
 
 LlamaLens allows you to:  
 - Capture images from your webcam  
@@ -13,7 +13,7 @@ LlamaLens allows you to:
 
 ---
 
-## 🛠 Prerequisites
+## Prerequisites
 
 - **OS**: Linux, macOS, or Windows (via WSL)  
 - **Browsers**: Chrome, Firefox, Safari  
@@ -23,7 +23,7 @@ LlamaLens allows you to:
 
 ---
 
-## ⚡ Installation
+## Installation
 
 ### 1. Install `llama.cpp`
 
